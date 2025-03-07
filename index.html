@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-200">
+    
+    <!-- En-tête -->
+    <header class="bg-white shadow-md p-4">
+        <nav class="max-w-6xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">E Shop</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#products" class="text-gray-600 hover:text-gray-900">Produits</a></li>
+                <li><a href="#contact" class="text-gray-600 hover:text-gray-900">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Produits -->
+    <section id="products" class="max-w-6xl mx-auto py-12">
+        <h2 class="text-3xl font-semibold text-center mb-8">Nos Produits</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="img/shoes1.jpg" alt="Produit 1" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-semibold mt-2">Produit 1</h3>
+                <p class="text-gray-600">Shoes Italien.</p>
+                <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Acheter maintenant</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="img/shoes2.jpg" alt="Produit 2" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-semibold mt-2">Produit 2</h3>
+                <p class="text-gray-600">Shoes Anglais.</p>
+                <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Acheter maintenant</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="img/shoes3.jpg" alt="Produit 3" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-semibold mt-2">Produit 3</h3>
+                <p class="text-gray-600">Shoes Francais.</p>
+                <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Acheter maintenant</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="img/shoes4.jpg" alt="Produit 4" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-semibold mt-2">Produit 4</h3>
+                <p class="text-gray-600">Shoes Belge.</p>
+                <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Acheter maintenant</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contacts -->
+     <section class="contact-me">
+        <form>
+            <p>Contacter moi</p>
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required> <br> <br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required> <br> <br>
+            
+            <label id="message">Message:</label>
+            <textarea type="message" id="message" rows="5" required>
+            </textarea> <br> <br>
+    
+            <button type="submit">Envoyez</button>
+        </form>
+    
+
+     </section>
+
+    <!-- Pied de page -->
+    <footer id="contact" class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2025 E Shop - Tous droits réservés</p>
+    </footer>
+    
+</body>
+</html>
