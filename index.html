@@ -7,10 +7,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-200">
+<body class="bg-white text-gray-800">
     
     <!-- En-tête -->
-    <header class="bg-white shadow-md p-4">
+    <header class="bg-white shadow-md p-4" style="position: sticky; top: 0; z-index: 1000;">
         <nav class="max-w-6xl mx-auto flex justify-between items-center">
             <h1 class="text-2xl font-bold">E Shop</h1>
             <ul class="flex space-x-4">
@@ -19,6 +19,15 @@
             </ul>
         </nav>
     </header>
+
+
+    <!-- Section d'introduction -->
+     <img src="https://sinch.com/wp-content/uploads/2024/08/omnichannel-ecommerce-hero.png" alt="" style="display: block; margin: 0 auto; width: 100%; height: auto;">
+
+
+
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
 
     <!-- Section Produits -->
     <section id="products" class="max-w-6xl mx-auto py-12">
@@ -51,9 +60,49 @@
         </div>
     </section>
 
+    <br> <br> <br> <br> <br> <br> <br>
+
+    <section>
+        <img src="img/E Com (1).png" alt="photos section" style="display: ;block; margin: 0 auto; width: 30%; height: auto;">
+    </section>
+
+    <br> <br> <br> <br> <br> <br> <br>
+
+    <!-- Section Produits -->
+
+    <section id="products" class="max-w-6xl mx-auto py-12">
+        <h2 class="text-3xl font-semibold text-center mb-8">Nos Produits</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="img/shoes1.jpg" alt="Produit 1" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-semibold mt-2">Produit 1</h3>
+                <p class="text-gray-600">Shoes Italien.</p>
+                <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Acheter maintenant</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="img/shoes2.jpg" alt="Produit 2" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-semibold mt-2">Produit 2</h3>
+                <p class="text-gray-600">Shoes Anglais.</p>
+                <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Acheter maintenant</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="img/shoes3.jpg" alt="Produit 3" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-semibold mt-2">Produit 3</h3>
+                <p class="text-gray-600">Shoes Francais.</p>
+                <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Acheter maintenant</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="img/shoes4.jpg" alt="Produit 4" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-semibold mt-2">Produit 4</h3>
+                <p class="text-gray-600">Shoes Belge.</p>
+                <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Acheter maintenant</button>
+            </div>
+        </div>
+    </section>
+
     <!-- Section Contacts -->
      <section class="contact-me">
-        <form>
+        <form style="background-color: pink;">
             <p>Contacter moi</p>
             <label for="name">Nom:</label>
             <input type="text" id="name" name="name" required> <br> <br>
@@ -72,7 +121,7 @@
      </section>
 
     <!-- Pied de page -->
-    <footer id="contact" class="bg-gray-800 text-white text-center py-4">
+    <footer id="contact" class="text-white text-center py-4" style="background-color: pink;">
         <p>&copy; 2025 E Shop - Tous droits réservés</p>
     </footer>
     
